@@ -39,8 +39,8 @@
 #include <sys/time.h>
 #define PRETTY_BOLD
 
-#define MARGIN  5
-#define VMARGIN 2
+#define MARGIN  15
+#define VMARGIN 15
 #define COLOR_KEY_SIZE 4
 
 @class MovingAverage;
@@ -837,7 +837,7 @@ typedef enum {
 // Return the number of pixels tall to draw the cursor.
 - (double)cursorHeight;
 
-// Draw the contents of the input method editor beginning at some location, 
+// Draw the contents of the input method editor beginning at some location,
 // usually the cursor position.
 // xStart, yStart: cell coordinates
 // width, height: cell width, height of screen
